@@ -163,6 +163,7 @@ def from_nba(payload: dict, start: datetime, end: datetime) -> list[dict]:
     dates = league.get("gameDates") if isinstance(league, dict) else None
     if not isinstance(dates, list):
         raise RuntimeError("nba schedule shape")
+    season_year = str(league.get("seasonYear") or "") if isinstance(league, dict) else ""
     games = []
     seen = set()
     for day in dates:
@@ -170,7 +171,7 @@ def from_nba(payload: dict, start: datetime, end: datetime) -> list[dict]:
         if not isinstance(rows, list):
             continue
         for row in rows:
-            game = nba_game(row, start, end)
+            game = nba_game(row, start, end, season_year)
             if game and game["id"] not in seen:
                 seen.add(game["id"])
                 games.append(game)
@@ -190,7 +191,7 @@ def from_espn(payload: dict, start: datetime, end: datetime) -> list[dict]:
     return games
 
 
-def nba_game(row: object, start: datetime, end: datetime) -> dict | None:
+def nba_game(row: object, start: datetime, end: datetime, season_year: str) -> dict | None:
     if not isinstance(row, dict):
         return None
     instant = parse_instant(row.get("gameDateTimeUTC"))
@@ -210,6 +211,7 @@ def nba_game(row: object, start: datetime, end: datetime) -> dict | None:
         zone,
         venue(row.get("arenaName"), row.get("arenaCity")),
         "live" if row.get("gameStatus") == 2 else "scheduled",
+        season_line(row.get("gameLabel"), season_year),
     )
 
 
@@ -251,10 +253,19 @@ def espn_event(event: object, start: datetime, end: datetime) -> dict | None:
         zone,
         name.strip() if isinstance(name, str) and name.strip() else "NBA",
         "live" if state == "in" else "scheduled",
+        espn_season_line(event),
     )
 
 
-def game_row(home: str, away: str, instant: datetime, zone: str, place: str, status: str) -> dict:
+def game_row(
+    home: str,
+    away: str,
+    instant: datetime,
+    zone: str,
+    place: str,
+    status: str,
+    competition: str = "NBA",
+) -> dict:
     stamp = iso(instant)
     return {
         "id": f"g-{home}-{away}-{stamp}",
@@ -262,10 +273,43 @@ def game_row(home: str, away: str, instant: datetime, zone: str, place: str, sta
         "away": away,
         "dateTime": stamp,
         "arenaTimeZone": zone,
-        "competition": "NBA",
+        "competition": competition,
         "venue": place,
         "status": status,
     }
+
+
+def season_line(game_label: object, season_year: str) -> str:
+    year = season_year.strip()
+    start = year.split("-")[0] if year else ""
+    label = game_label.strip().lower() if isinstance(game_label, str) else ""
+    if "preseason" in label:
+        return f"NBA PRESEASON {start}".strip()
+    if "play-in" in label or "playoff" in label:
+        return f"NBA PLAYOFFS {start}".strip()
+    if label in {"finals", "nba finals"}:
+        return f"NBA FINALS {start}".strip()
+    if year:
+        return f"NBA REGULAR SEASON {year}"
+    return "NBA"
+
+
+def espn_season_line(event: dict) -> str:
+    season = event.get("season")
+    if not isinstance(season, dict):
+        return "NBA"
+    year = season.get("year")
+    slug = ""
+    kind = season.get("type")
+    if isinstance(kind, dict):
+        slug = str(kind.get("slug") or kind.get("name") or "")
+    elif isinstance(kind, str):
+        slug = kind
+    elif kind == 1:
+        slug = "preseason"
+    elif kind == 3:
+        slug = "playoffs"
+    return season_line(slug, str(year or ""))
 
 
 def team_code(team: object) -> str | None:
