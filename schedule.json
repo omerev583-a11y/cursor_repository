@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T12:40:09.000Z",
+  "generatedAt": "2026-10-04T13:11:00.000Z",
   "windowStart": "2026-10-03T00:00:00.000Z",
-  "windowEnd": "2026-10-07T00:00:00.000Z",
+  "windowEnd": "2026-10-11T00:00:00.000Z",
   "games": [
     {
       "id": "g-DVR-SLC-2026-10-04T23:00:00.000Z",
@@ -81,6 +81,196 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA",
       "venue": "Spectrum Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-OKL-NOL-2026-10-07T00:00:00.000Z",
+      "home": "OKL",
+      "away": "NOL",
+      "dateTime": "2026-10-07T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "BOK Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SLC-DVR-2026-10-07T01:00:00.000Z",
+      "home": "SLC",
+      "away": "DVR",
+      "dateTime": "2026-10-07T01:00:00.000Z",
+      "arenaTimeZone": "America/Denver",
+      "competition": "NBA",
+      "venue": "Delta Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SFR-LAG-2026-10-07T02:00:00.000Z",
+      "home": "SFR",
+      "away": "LAG",
+      "dateTime": "2026-10-07T02:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA",
+      "venue": "Chase Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-IPS-MPL-2026-10-07T23:00:00.000Z",
+      "home": "IPS",
+      "away": "MPL",
+      "dateTime": "2026-10-07T23:00:00.000Z",
+      "arenaTimeZone": "America/Indiana/Indianapolis",
+      "competition": "NBA",
+      "venue": "Hilton Coliseum",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MPS-ORL-2026-10-08T00:00:00.000Z",
+      "home": "MPS",
+      "away": "ORL",
+      "dateTime": "2026-10-08T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "FedExForum",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-OKL-MLK-2026-10-08T00:00:00.000Z",
+      "home": "OKL",
+      "away": "MLK",
+      "dateTime": "2026-10-08T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "Paycom Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CGO-PXN-2026-10-08T00:00:00.000Z",
+      "home": "CGO",
+      "away": "PXN",
+      "dateTime": "2026-10-08T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "United Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-PTL-SFR-2026-10-08T02:00:00.000Z",
+      "home": "PTL",
+      "away": "SFR",
+      "dateTime": "2026-10-08T02:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA",
+      "venue": "Moda Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CLV-BTN-2026-10-08T23:00:00.000Z",
+      "home": "CLV",
+      "away": "BTN",
+      "dateTime": "2026-10-08T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "Rocket Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MMI-NOL-2026-10-08T23:30:00.000Z",
+      "home": "MMI",
+      "away": "NOL",
+      "dateTime": "2026-10-08T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "Kaseya Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-BKL-PHD-2026-10-08T23:30:00.000Z",
+      "home": "BKL",
+      "away": "PHD",
+      "dateTime": "2026-10-08T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "Barclays Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-NYC-WDC-2026-10-08T23:30:00.000Z",
+      "home": "NYC",
+      "away": "WDC",
+      "dateTime": "2026-10-08T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "Madison Square Garden",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SAT-ATX-2026-10-09T00:00:00.000Z",
+      "home": "SAT",
+      "away": "ATX",
+      "dateTime": "2026-10-09T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "Frost Bank Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-LAG-SMT-2026-10-09T02:30:00.000Z",
+      "home": "LAG",
+      "away": "SMT",
+      "dateTime": "2026-10-09T02:30:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA",
+      "venue": "crypto.com Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DLS-HST-2026-10-09T12:00:00.000Z",
+      "home": "DLS",
+      "away": "HST",
+      "dateTime": "2026-10-09T12:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "Venetian Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CGO-MPS-2026-10-10T00:00:00.000Z",
+      "home": "CGO",
+      "away": "MPS",
+      "dateTime": "2026-10-10T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "United Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-TNT-LAX-2026-10-10T22:30:00.000Z",
+      "home": "TNT",
+      "away": "LAX",
+      "dateTime": "2026-10-10T22:30:00.000Z",
+      "arenaTimeZone": "America/Toronto",
+      "competition": "NBA",
+      "venue": "Rogers Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-IPS-ATX-2026-10-10T23:00:00.000Z",
+      "home": "IPS",
+      "away": "ATX",
+      "dateTime": "2026-10-10T23:00:00.000Z",
+      "arenaTimeZone": "America/Indiana/Indianapolis",
+      "competition": "NBA",
+      "venue": "Gainbridge Fieldhouse",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-WDC-DTR-2026-10-10T23:00:00.000Z",
+      "home": "WDC",
+      "away": "DTR",
+      "dateTime": "2026-10-10T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "Capital One Arena",
       "status": "scheduled"
     }
   ]
