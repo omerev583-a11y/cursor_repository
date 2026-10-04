@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-10-04T12:40:09.000Z",
+  "windowStart": "2026-10-03T00:00:00.000Z",
+  "windowEnd": "2026-10-07T00:00:00.000Z",
+  "games": [
+    {
+      "id": "g-DVR-SLC-2026-10-04T23:00:00.000Z",
+      "home": "DVR",
+      "away": "SLC",
+      "dateTime": "2026-10-04T23:00:00.000Z",
+      "arenaTimeZone": "America/Denver",
+      "competition": "NBA",
+      "venue": "CU Events Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-LAX-SFR-2026-10-04T23:00:00.000Z",
+      "home": "LAX",
+      "away": "SFR",
+      "dateTime": "2026-10-04T23:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA",
+      "venue": "Stan Sheriff Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-ATX-MPS-2026-10-05T23:00:00.000Z",
+      "home": "ATX",
+      "away": "MPS",
+      "dateTime": "2026-10-05T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "State Farm Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DTR-PXN-2026-10-05T23:00:00.000Z",
+      "home": "DTR",
+      "away": "PXN",
+      "dateTime": "2026-10-05T23:00:00.000Z",
+      "arenaTimeZone": "America/Detroit",
+      "competition": "NBA",
+      "venue": "Little Caesars Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-PHD-NYC-2026-10-05T23:00:00.000Z",
+      "home": "PHD",
+      "away": "NYC",
+      "dateTime": "2026-10-05T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "Xfinity Mobile Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MLK-MPL-2026-10-06T00:00:00.000Z",
+      "home": "MLK",
+      "away": "MPL",
+      "dateTime": "2026-10-06T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA",
+      "venue": "Fiserv Forum",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SMT-LAG-2026-10-06T02:00:00.000Z",
+      "home": "SMT",
+      "away": "LAG",
+      "dateTime": "2026-10-06T02:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA",
+      "venue": "Golden 1 Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CHT-BKL-2026-10-06T23:00:00.000Z",
+      "home": "CHT",
+      "away": "BKL",
+      "dateTime": "2026-10-06T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA",
+      "venue": "Spectrum Center",
+      "status": "scheduled"
+    }
+  ]
+}
