@@ -183,9 +183,10 @@ def from_espn(payload: dict, start: datetime, end: datetime) -> list[dict]:
     events = payload.get("events") if isinstance(payload, dict) else None
     if not isinstance(events, list):
         raise RuntimeError("espn scoreboard shape")
+    season_year = espn_season_year(payload)
     games = []
     for event in events:
-        game = espn_event(event, start, end)
+        game = espn_event(event, start, end, season_year)
         if game:
             games.append(game)
     return games
@@ -215,7 +216,7 @@ def nba_game(row: object, start: datetime, end: datetime, season_year: str) -> d
     )
 
 
-def espn_event(event: object, start: datetime, end: datetime) -> dict | None:
+def espn_event(event: object, start: datetime, end: datetime, season_year: str) -> dict | None:
     if not isinstance(event, dict):
         return None
     instant = parse_instant(event.get("date"))
@@ -253,7 +254,7 @@ def espn_event(event: object, start: datetime, end: datetime) -> dict | None:
         zone,
         name.strip() if isinstance(name, str) and name.strip() else "NBA",
         "live" if state == "in" else "scheduled",
-        espn_season_line(event),
+        espn_season_line(event, season_year),
     )
 
 
@@ -294,22 +295,38 @@ def season_line(game_label: object, season_year: str) -> str:
     return "NBA"
 
 
-def espn_season_line(event: dict) -> str:
-    season = event.get("season")
-    if not isinstance(season, dict):
-        return "NBA"
-    year = season.get("year")
-    slug = ""
+def espn_season_year(payload: dict) -> str:
+    leagues = payload.get("leagues")
+    if isinstance(leagues, list) and leagues and isinstance(leagues[0], dict):
+        season = leagues[0].get("season")
+        if isinstance(season, dict):
+            name = season.get("displayName")
+            if isinstance(name, str) and name.strip():
+                return name.strip()
+    return ""
+
+
+def espn_season_line(event: dict, season_year: str) -> str:
+    season = event.get("season") if isinstance(event.get("season"), dict) else {}
+    slug = season.get("slug") if isinstance(season.get("slug"), str) else ""
     kind = season.get("type")
-    if isinstance(kind, dict):
-        slug = str(kind.get("slug") or kind.get("name") or "")
-    elif isinstance(kind, str):
-        slug = kind
-    elif kind == 1:
-        slug = "preseason"
-    elif kind == 3:
-        slug = "playoffs"
-    return season_line(slug, str(year or ""))
+    if not slug:
+        if isinstance(kind, dict):
+            slug = str(kind.get("slug") or kind.get("name") or "")
+        elif isinstance(kind, str):
+            slug = kind
+        elif kind == 1:
+            slug = "preseason"
+        elif kind == 3:
+            slug = "playoffs"
+    year = season_year
+    if not year:
+        raw = season.get("year")
+        if isinstance(raw, int) and raw > 1900:
+            year = f"{raw - 1}-{str(raw)[-2:]}"
+        else:
+            year = str(raw or "")
+    return season_line(slug, year)
 
 
 def team_code(team: object) -> str | None:
