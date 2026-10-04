@@ -1,0 +1,33 @@
+name: schedule
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+    - cron: "0 16 * * *"
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull the schedule
+        run: python fetch_schedule.py
+      - name: Publish schedule.json
+        run: |
+          git config user.name "clutchtime-schedule"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add schedule.json
+          if git diff --staged --quiet; then
+            echo "schedule unchanged"
+          else
+            git commit -m "Update the NBA schedule"
+            git push
+          fi
