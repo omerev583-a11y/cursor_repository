@@ -115,7 +115,7 @@ def main() -> int:
 
 def window(now: datetime) -> tuple[datetime, datetime]:
     start = (now - timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
-    end = (now + timedelta(days=3)).replace(hour=0, minute=0, second=0, microsecond=0)
+    end = (now + timedelta(days=7)).replace(hour=0, minute=0, second=0, microsecond=0)
     return start, end
 
 
