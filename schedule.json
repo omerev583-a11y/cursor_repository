@@ -1,18 +1,8 @@
 {
-  "generatedAt": "2026-10-09T21:09:24.000Z",
-  "windowStart": "2026-10-08T00:00:00.000Z",
-  "windowEnd": "2026-10-16T00:00:00.000Z",
+  "generatedAt": "2026-10-10T10:05:15.000Z",
+  "windowStart": "2026-10-09T00:00:00.000Z",
+  "windowEnd": "2026-10-17T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-CGO-MPS-2026-10-10T00:00:00.000Z",
-      "home": "CGO",
-      "away": "MPS",
-      "dateTime": "2026-10-10T00:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "United Center",
-      "status": "scheduled"
-    },
     {
       "id": "g-TNT-LAX-2026-10-10T22:30:00.000Z",
       "home": "TNT",
@@ -291,6 +281,56 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA PRESEASON 2026",
       "venue": "Madison Square Garden",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-HST-OKL-2026-10-16T00:30:00.000Z",
+      "home": "HST",
+      "away": "OKL",
+      "dateTime": "2026-10-16T00:30:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Toyota Center (Houston)",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-ORL-MMI-2026-10-16T23:00:00.000Z",
+      "home": "ORL",
+      "away": "MMI",
+      "dateTime": "2026-10-16T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Kia Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-PHD-BTN-2026-10-16T23:00:00.000Z",
+      "home": "PHD",
+      "away": "BTN",
+      "dateTime": "2026-10-16T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Xfinity Mobile Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DTR-TNT-2026-10-16T23:00:00.000Z",
+      "home": "DTR",
+      "away": "TNT",
+      "dateTime": "2026-10-16T23:00:00.000Z",
+      "arenaTimeZone": "America/Detroit",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Little Caesars Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-IPS-MLK-2026-10-16T23:00:00.000Z",
+      "home": "IPS",
+      "away": "MLK",
+      "dateTime": "2026-10-16T23:00:00.000Z",
+      "arenaTimeZone": "America/Indiana/Indianapolis",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Gainbridge Fieldhouse",
       "status": "scheduled"
     }
   ]
