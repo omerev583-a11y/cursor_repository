@@ -1,78 +1,8 @@
 {
-  "generatedAt": "2026-10-10T21:07:31.000Z",
-  "windowStart": "2026-10-09T00:00:00.000Z",
-  "windowEnd": "2026-10-17T00:00:00.000Z",
+  "generatedAt": "2026-10-11T10:06:02.000Z",
+  "windowStart": "2026-10-10T00:00:00.000Z",
+  "windowEnd": "2026-10-18T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-TNT-LAX-2026-10-10T22:30:00.000Z",
-      "home": "TNT",
-      "away": "LAX",
-      "dateTime": "2026-10-10T22:30:00.000Z",
-      "arenaTimeZone": "America/Toronto",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Rogers Arena",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-IPS-ATX-2026-10-10T23:00:00.000Z",
-      "home": "IPS",
-      "away": "ATX",
-      "dateTime": "2026-10-10T23:00:00.000Z",
-      "arenaTimeZone": "America/Indiana/Indianapolis",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Gainbridge Fieldhouse",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-WDC-DTR-2026-10-10T23:00:00.000Z",
-      "home": "WDC",
-      "away": "DTR",
-      "dateTime": "2026-10-10T23:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Capital One Arena",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-MMI-MPL-2026-10-11T00:00:00.000Z",
-      "home": "MMI",
-      "away": "MPL",
-      "dateTime": "2026-10-11T00:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Kaseya Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-BTN-PHD-2026-10-11T00:00:00.000Z",
-      "home": "BTN",
-      "away": "PHD",
-      "dateTime": "2026-10-11T00:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "TD Garden",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-SFR-SMT-2026-10-11T00:30:00.000Z",
-      "home": "SFR",
-      "away": "SMT",
-      "dateTime": "2026-10-11T00:30:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Chase Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-PXN-SAT-2026-10-11T02:30:00.000Z",
-      "home": "PXN",
-      "away": "SAT",
-      "dateTime": "2026-10-11T02:30:00.000Z",
-      "arenaTimeZone": "America/Phoenix",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Mortgage Matchup Center",
-      "status": "scheduled"
-    },
     {
       "id": "g-HST-DLS-2026-10-11T10:00:00.000Z",
       "home": "HST",
@@ -331,6 +261,86 @@
       "arenaTimeZone": "America/Indiana/Indianapolis",
       "competition": "NBA PRESEASON 2026",
       "venue": "Gainbridge Fieldhouse",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DLS-ATX-2026-10-17T00:00:00.000Z",
+      "home": "DLS",
+      "away": "ATX",
+      "dateTime": "2026-10-17T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "American Airlines Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SAT-SMT-2026-10-17T00:00:00.000Z",
+      "home": "SAT",
+      "away": "SMT",
+      "dateTime": "2026-10-17T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Frost Bank Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MPS-CHT-2026-10-17T00:00:00.000Z",
+      "home": "MPS",
+      "away": "CHT",
+      "dateTime": "2026-10-17T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "FedExForum",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-NOL-WDC-2026-10-17T00:00:00.000Z",
+      "home": "NOL",
+      "away": "WDC",
+      "dateTime": "2026-10-17T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Smoothie King Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CGO-MPL-2026-10-17T00:00:00.000Z",
+      "home": "CGO",
+      "away": "MPL",
+      "dateTime": "2026-10-17T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "United Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SFR-PTL-2026-10-17T02:00:00.000Z",
+      "home": "SFR",
+      "away": "PTL",
+      "dateTime": "2026-10-17T02:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Chase Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-PXN-SLC-2026-10-17T02:00:00.000Z",
+      "home": "PXN",
+      "away": "SLC",
+      "dateTime": "2026-10-17T02:00:00.000Z",
+      "arenaTimeZone": "America/Phoenix",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "Mortgage Matchup Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-LAG-DVR-2026-10-17T02:30:00.000Z",
+      "home": "LAG",
+      "away": "DVR",
+      "dateTime": "2026-10-17T02:30:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA PRESEASON 2026",
+      "venue": "crypto.com Arena",
       "status": "scheduled"
     }
   ]
