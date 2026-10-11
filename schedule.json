@@ -1,18 +1,8 @@
 {
-  "generatedAt": "2026-10-11T10:06:02.000Z",
+  "generatedAt": "2026-10-11T16:06:40.000Z",
   "windowStart": "2026-10-10T00:00:00.000Z",
   "windowEnd": "2026-10-18T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-HST-DLS-2026-10-11T10:00:00.000Z",
-      "home": "HST",
-      "away": "DLS",
-      "dateTime": "2026-10-11T10:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Venetian Arena",
-      "status": "scheduled"
-    },
     {
       "id": "g-CLV-ORL-2026-10-11T22:30:00.000Z",
       "home": "CLV",
