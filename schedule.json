@@ -1,38 +1,8 @@
 {
-  "generatedAt": "2026-10-11T21:08:25.000Z",
-  "windowStart": "2026-10-10T00:00:00.000Z",
-  "windowEnd": "2026-10-18T00:00:00.000Z",
+  "generatedAt": "2026-10-12T10:09:21.000Z",
+  "windowStart": "2026-10-11T00:00:00.000Z",
+  "windowEnd": "2026-10-19T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-CLV-ORL-2026-10-11T22:30:00.000Z",
-      "home": "CLV",
-      "away": "ORL",
-      "dateTime": "2026-10-11T22:30:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Rocket Arena",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-CHT-MLK-2026-10-11T23:00:00.000Z",
-      "home": "CHT",
-      "away": "MLK",
-      "dateTime": "2026-10-11T23:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Spectrum Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-DVR-CGO-2026-10-12T01:00:00.000Z",
-      "home": "DVR",
-      "away": "CGO",
-      "dateTime": "2026-10-12T01:00:00.000Z",
-      "arenaTimeZone": "America/Denver",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Ball Arena",
-      "status": "scheduled"
-    },
     {
       "id": "g-ATX-OKL-2026-10-12T23:00:00.000Z",
       "home": "ATX",
