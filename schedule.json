@@ -1,78 +1,8 @@
 {
-  "generatedAt": "2026-10-14T21:20:40.000Z",
-  "windowStart": "2026-10-13T00:00:00.000Z",
-  "windowEnd": "2026-10-21T00:00:00.000Z",
+  "generatedAt": "2026-10-15T10:19:25.000Z",
+  "windowStart": "2026-10-14T00:00:00.000Z",
+  "windowEnd": "2026-10-22T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-MMI-BKL-2026-10-14T23:30:00.000Z",
-      "home": "MMI",
-      "away": "BKL",
-      "dateTime": "2026-10-14T23:30:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Kaseya Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-BTN-CHT-2026-10-14T23:30:00.000Z",
-      "home": "BTN",
-      "away": "CHT",
-      "dateTime": "2026-10-14T23:30:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "TD Garden",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-SAT-PXN-2026-10-15T00:00:00.000Z",
-      "home": "SAT",
-      "away": "PXN",
-      "dateTime": "2026-10-15T00:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Frost Bank Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-DLS-NOL-2026-10-15T00:00:00.000Z",
-      "home": "DLS",
-      "away": "NOL",
-      "dateTime": "2026-10-15T00:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "American Airlines Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-MLK-CGO-2026-10-15T00:00:00.000Z",
-      "home": "MLK",
-      "away": "CGO",
-      "dateTime": "2026-10-15T00:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Fiserv Forum",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-MPL-DTR-2026-10-15T00:00:00.000Z",
-      "home": "MPL",
-      "away": "DTR",
-      "dateTime": "2026-10-15T00:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Target Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-LAX-DVR-2026-10-15T02:30:00.000Z",
-      "home": "LAX",
-      "away": "DVR",
-      "dateTime": "2026-10-15T02:30:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA PRESEASON 2026",
-      "venue": "Intuit Dome",
-      "status": "scheduled"
-    },
     {
       "id": "g-NYC-TNT-2026-10-15T23:30:00.000Z",
       "home": "NYC",
@@ -231,6 +161,66 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Madison Square Garden",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SAT-OKL-2026-10-21T01:30:00.000Z",
+      "home": "SAT",
+      "away": "OKL",
+      "dateTime": "2026-10-21T01:30:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Frost Bank Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-ORL-ATX-2026-10-21T23:00:00.000Z",
+      "home": "ORL",
+      "away": "ATX",
+      "dateTime": "2026-10-21T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Kia Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-WDC-MLK-2026-10-21T23:00:00.000Z",
+      "home": "WDC",
+      "away": "MLK",
+      "dateTime": "2026-10-21T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Capital One Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MMI-MPL-2026-10-21T23:30:00.000Z",
+      "home": "MMI",
+      "away": "MPL",
+      "dateTime": "2026-10-21T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Kaseya Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-BKL-CHT-2026-10-21T23:30:00.000Z",
+      "home": "BKL",
+      "away": "CHT",
+      "dateTime": "2026-10-21T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Barclays Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-TNT-CGO-2026-10-21T23:30:00.000Z",
+      "home": "TNT",
+      "away": "CGO",
+      "dateTime": "2026-10-21T23:30:00.000Z",
+      "arenaTimeZone": "America/Toronto",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Scotiabank Arena",
       "status": "scheduled"
     }
   ]
