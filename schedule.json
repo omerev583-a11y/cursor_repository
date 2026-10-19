@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T21:15:05.000Z",
-  "windowStart": "2026-10-17T00:00:00.000Z",
-  "windowEnd": "2026-10-25T00:00:00.000Z",
+  "generatedAt": "2026-10-19T10:23:36.000Z",
+  "windowStart": "2026-10-18T00:00:00.000Z",
+  "windowEnd": "2026-10-26T00:00:00.000Z",
   "games": [
     {
       "id": "g-DTR-BTN-2026-10-20T19:00:00.000Z",
@@ -308,6 +308,116 @@
       "home": "PHD",
       "away": "MLK",
       "dateTime": "2026-10-24T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Xfinity Mobile Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CGO-WDC-2026-10-25T00:00:00.000Z",
+      "home": "CGO",
+      "away": "WDC",
+      "dateTime": "2026-10-25T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "United Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DLS-SAT-2026-10-25T00:00:00.000Z",
+      "home": "DLS",
+      "away": "SAT",
+      "dateTime": "2026-10-25T00:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "American Airlines Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-ATX-HST-2026-10-25T00:30:00.000Z",
+      "home": "ATX",
+      "away": "HST",
+      "dateTime": "2026-10-25T00:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "State Farm Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DVR-NOL-2026-10-25T01:00:00.000Z",
+      "home": "DVR",
+      "away": "NOL",
+      "dateTime": "2026-10-25T01:00:00.000Z",
+      "arenaTimeZone": "America/Denver",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Ball Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-PXN-SFR-2026-10-25T02:00:00.000Z",
+      "home": "PXN",
+      "away": "SFR",
+      "dateTime": "2026-10-25T02:00:00.000Z",
+      "arenaTimeZone": "America/Phoenix",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Mortgage Matchup Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SLC-LAG-2026-10-25T21:00:00.000Z",
+      "home": "SLC",
+      "away": "LAG",
+      "dateTime": "2026-10-25T21:00:00.000Z",
+      "arenaTimeZone": "America/Denver",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Delta Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-BKL-IPS-2026-10-25T22:00:00.000Z",
+      "home": "BKL",
+      "away": "IPS",
+      "dateTime": "2026-10-25T22:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Barclays Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-NYC-ORL-2026-10-25T23:00:00.000Z",
+      "home": "NYC",
+      "away": "ORL",
+      "dateTime": "2026-10-25T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Madison Square Garden",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MPL-TNT-2026-10-25T23:00:00.000Z",
+      "home": "MPL",
+      "away": "TNT",
+      "dateTime": "2026-10-25T23:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Target Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-OKL-LAX-2026-10-25T23:00:00.000Z",
+      "home": "OKL",
+      "away": "LAX",
+      "dateTime": "2026-10-25T23:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Paycom Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-PHD-DTR-2026-10-25T23:30:00.000Z",
+      "home": "PHD",
+      "away": "DTR",
+      "dateTime": "2026-10-25T23:30:00.000Z",
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Xfinity Mobile Arena",
