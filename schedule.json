@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T21:20:02.000Z",
-  "windowStart": "2026-10-18T00:00:00.000Z",
-  "windowEnd": "2026-10-26T00:00:00.000Z",
+  "generatedAt": "2026-10-20T10:17:46.000Z",
+  "windowStart": "2026-10-19T00:00:00.000Z",
+  "windowEnd": "2026-10-27T00:00:00.000Z",
   "games": [
     {
       "id": "g-DTR-BTN-2026-10-20T19:00:00.000Z",
@@ -421,6 +421,56 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Xfinity Mobile Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SMT-MPS-2026-10-26T01:00:00.000Z",
+      "home": "SMT",
+      "away": "MPS",
+      "dateTime": "2026-10-26T01:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Golden 1 Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CHT-WDC-2026-10-26T23:00:00.000Z",
+      "home": "CHT",
+      "away": "WDC",
+      "dateTime": "2026-10-26T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Spectrum Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CLV-MPL-2026-10-26T23:00:00.000Z",
+      "home": "CLV",
+      "away": "MPL",
+      "dateTime": "2026-10-26T23:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Rocket Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-BTN-CGO-2026-10-26T23:30:00.000Z",
+      "home": "BTN",
+      "away": "CGO",
+      "dateTime": "2026-10-26T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "TD Garden",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MMI-DLS-2026-10-26T23:30:00.000Z",
+      "home": "MMI",
+      "away": "DLS",
+      "dateTime": "2026-10-26T23:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Kaseya Center",
       "status": "scheduled"
     }
   ]
