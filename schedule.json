@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:25:50.000Z",
+  "generatedAt": "2026-10-23T21:21:34.000Z",
   "windowStart": "2026-10-22T00:00:00.000Z",
   "windowEnd": "2026-10-30T00:00:00.000Z",
   "games": [
@@ -11,7 +11,7 @@
       "arenaTimeZone": "America/Chicago",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Fiserv Forum",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-BTN-NYC-2026-10-23T23:00:00.000Z",
