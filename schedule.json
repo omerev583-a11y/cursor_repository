@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T16:16:56.000Z",
+  "generatedAt": "2026-10-25T21:16:35.000Z",
   "windowStart": "2026-10-24T00:00:00.000Z",
   "windowEnd": "2026-11-01T00:00:00.000Z",
   "games": [
@@ -11,7 +11,7 @@
       "arenaTimeZone": "America/Denver",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Delta Center",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-BKL-IPS-2026-10-25T22:00:00.000Z",
