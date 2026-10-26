@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T16:37:59.000Z",
+  "generatedAt": "2026-10-26T21:23:48.000Z",
   "windowStart": "2026-10-25T00:00:00.000Z",
   "windowEnd": "2026-11-02T00:00:00.000Z",
   "games": [
@@ -254,10 +254,10 @@
       "status": "scheduled"
     },
     {
-      "id": "g-ATX-CLV-2026-10-29T23:00:00.000Z",
+      "id": "g-ATX-CLV-2026-10-30T00:00:00.000Z",
       "home": "ATX",
       "away": "CLV",
-      "dateTime": "2026-10-29T23:00:00.000Z",
+      "dateTime": "2026-10-30T00:00:00.000Z",
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "State Farm Arena",
