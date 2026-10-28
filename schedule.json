@@ -1,48 +1,8 @@
 {
-  "generatedAt": "2026-10-27T21:25:02.000Z",
-  "windowStart": "2026-10-26T00:00:00.000Z",
-  "windowEnd": "2026-11-03T00:00:00.000Z",
+  "generatedAt": "2026-10-28T10:32:00.000Z",
+  "windowStart": "2026-10-27T00:00:00.000Z",
+  "windowEnd": "2026-11-04T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-BTN-BKL-2026-10-27T23:30:00.000Z",
-      "home": "BTN",
-      "away": "BKL",
-      "dateTime": "2026-10-27T23:30:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "TD Garden",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-NYC-DTR-2026-10-28T00:00:00.000Z",
-      "home": "NYC",
-      "away": "DTR",
-      "dateTime": "2026-10-28T00:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Madison Square Garden",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-SAT-SMT-2026-10-28T00:00:00.000Z",
-      "home": "SAT",
-      "away": "SMT",
-      "dateTime": "2026-10-28T00:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Frost Bank Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-LAG-PTL-2026-10-28T03:00:00.000Z",
-      "home": "LAG",
-      "away": "PTL",
-      "dateTime": "2026-10-28T03:00:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "crypto.com Arena",
-      "status": "scheduled"
-    },
     {
       "id": "g-ATX-MMI-2026-10-28T23:00:00.000Z",
       "home": "ATX",
@@ -398,6 +358,156 @@
       "home": "LAG",
       "away": "TNT",
       "dateTime": "2026-11-02T02:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "crypto.com Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CLV-OKL-2026-11-03T00:00:00.000Z",
+      "home": "CLV",
+      "away": "OKL",
+      "dateTime": "2026-11-03T00:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Rocket Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-CHT-DTR-2026-11-03T00:30:00.000Z",
+      "home": "CHT",
+      "away": "DTR",
+      "dateTime": "2026-11-03T00:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Spectrum Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-IPS-ATX-2026-11-03T00:30:00.000Z",
+      "home": "IPS",
+      "away": "ATX",
+      "dateTime": "2026-11-03T00:30:00.000Z",
+      "arenaTimeZone": "America/Indiana/Indianapolis",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Gainbridge Fieldhouse",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-NYC-BKL-2026-11-03T00:30:00.000Z",
+      "home": "NYC",
+      "away": "BKL",
+      "dateTime": "2026-11-03T00:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Madison Square Garden",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-ORL-WDC-2026-11-03T00:30:00.000Z",
+      "home": "ORL",
+      "away": "WDC",
+      "dateTime": "2026-11-03T00:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Kia Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-PHD-CGO-2026-11-03T00:30:00.000Z",
+      "home": "PHD",
+      "away": "CGO",
+      "dateTime": "2026-11-03T00:30:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Xfinity Mobile Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DLS-SMT-2026-11-03T01:00:00.000Z",
+      "home": "DLS",
+      "away": "SMT",
+      "dateTime": "2026-11-03T01:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "American Airlines Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MPS-NOL-2026-11-03T01:00:00.000Z",
+      "home": "MPS",
+      "away": "NOL",
+      "dateTime": "2026-11-03T01:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "FedExForum",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MPL-MLK-2026-11-03T01:00:00.000Z",
+      "home": "MPL",
+      "away": "MLK",
+      "dateTime": "2026-11-03T01:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Target Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-HST-BTN-2026-11-03T01:30:00.000Z",
+      "home": "HST",
+      "away": "BTN",
+      "dateTime": "2026-11-03T01:30:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Toyota Center (Houston)",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SAT-SLC-2026-11-03T01:30:00.000Z",
+      "home": "SAT",
+      "away": "SLC",
+      "dateTime": "2026-11-03T01:30:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Frost Bank Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-DVR-PTL-2026-11-03T02:00:00.000Z",
+      "home": "DVR",
+      "away": "PTL",
+      "dateTime": "2026-11-03T02:00:00.000Z",
+      "arenaTimeZone": "America/Denver",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Ball Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SFR-PXN-2026-11-03T03:00:00.000Z",
+      "home": "SFR",
+      "away": "PXN",
+      "dateTime": "2026-11-03T03:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Chase Center",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-LAX-TNT-2026-11-03T03:00:00.000Z",
+      "home": "LAX",
+      "away": "TNT",
+      "dateTime": "2026-11-03T03:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Intuit Dome",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-LAG-MMI-2026-11-03T03:00:00.000Z",
+      "home": "LAG",
+      "away": "MMI",
+      "dateTime": "2026-11-03T03:00:00.000Z",
       "arenaTimeZone": "America/Los_Angeles",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "crypto.com Arena",
