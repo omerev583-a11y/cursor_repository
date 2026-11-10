@@ -1,48 +1,8 @@
 {
-  "generatedAt": "2026-11-09T23:56:03.000Z",
-  "windowStart": "2026-11-08T00:00:00.000Z",
-  "windowEnd": "2026-11-16T00:00:00.000Z",
+  "generatedAt": "2026-11-10T03:08:21.000Z",
+  "windowStart": "2026-11-09T00:00:00.000Z",
+  "windowEnd": "2026-11-17T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-ATX-LAG-2026-11-10T00:00:00.000Z",
-      "home": "ATX",
-      "away": "LAG",
-      "dateTime": "2026-11-10T00:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "State Farm Arena",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-CHT-CLV-2026-11-10T00:00:00.000Z",
-      "home": "CHT",
-      "away": "CLV",
-      "dateTime": "2026-11-10T00:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Spectrum Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-DTR-WDC-2026-11-10T00:00:00.000Z",
-      "home": "DTR",
-      "away": "WDC",
-      "dateTime": "2026-11-10T00:00:00.000Z",
-      "arenaTimeZone": "America/Detroit",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Little Caesars Arena",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-TNT-MPS-2026-11-10T00:30:00.000Z",
-      "home": "TNT",
-      "away": "MPS",
-      "dateTime": "2026-11-10T00:30:00.000Z",
-      "arenaTimeZone": "America/Toronto",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Scotiabank Arena",
-      "status": "scheduled"
-    },
     {
       "id": "g-DLS-IPS-2026-11-10T01:00:00.000Z",
       "home": "DLS",
@@ -51,7 +11,7 @@
       "arenaTimeZone": "America/Chicago",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "American Airlines Center",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-HST-DVR-2026-11-10T01:30:00.000Z",
@@ -61,7 +21,7 @@
       "arenaTimeZone": "America/Chicago",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Toyota Center (Houston)",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-PXN-SAT-2026-11-10T02:00:00.000Z",
@@ -71,7 +31,7 @@
       "arenaTimeZone": "America/Phoenix",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Mortgage Matchup Center",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-SFR-NOL-2026-11-10T03:00:00.000Z",
@@ -481,6 +441,36 @@
       "arenaTimeZone": "America/Toronto",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Scotiabank Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-WDC-HST-2026-11-16T00:00:00.000Z",
+      "home": "WDC",
+      "away": "HST",
+      "dateTime": "2026-11-16T00:00:00.000Z",
+      "arenaTimeZone": "America/New_York",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Capital One Arena",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-MLK-ATX-2026-11-16T01:00:00.000Z",
+      "home": "MLK",
+      "away": "ATX",
+      "dateTime": "2026-11-16T01:00:00.000Z",
+      "arenaTimeZone": "America/Chicago",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Fiserv Forum",
+      "status": "scheduled"
+    },
+    {
+      "id": "g-SMT-OKL-2026-11-16T02:00:00.000Z",
+      "home": "SMT",
+      "away": "OKL",
+      "dateTime": "2026-11-16T02:00:00.000Z",
+      "arenaTimeZone": "America/Los_Angeles",
+      "competition": "NBA REGULAR SEASON 2026-27",
+      "venue": "Golden 1 Center",
       "status": "scheduled"
     }
   ]
