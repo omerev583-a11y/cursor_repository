@@ -1,58 +1,8 @@
 {
-  "generatedAt": "2026-11-15T00:42:57.000Z",
+  "generatedAt": "2026-11-15T16:43:36.000Z",
   "windowStart": "2026-11-14T00:00:00.000Z",
   "windowEnd": "2026-11-22T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-NOL-DVR-2026-11-15T00:00:00.000Z",
-      "home": "NOL",
-      "away": "DVR",
-      "dateTime": "2026-11-15T00:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Smoothie King Center",
-      "status": "live"
-    },
-    {
-      "id": "g-CLV-DLS-2026-11-15T00:30:00.000Z",
-      "home": "CLV",
-      "away": "DLS",
-      "dateTime": "2026-11-15T00:30:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Rocket Arena",
-      "status": "live"
-    },
-    {
-      "id": "g-MMI-DTR-2026-11-15T01:00:00.000Z",
-      "home": "MMI",
-      "away": "DTR",
-      "dateTime": "2026-11-15T01:00:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Kaseya Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-MPS-BKL-2026-11-15T01:00:00.000Z",
-      "home": "MPS",
-      "away": "BKL",
-      "dateTime": "2026-11-15T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "FedExForum",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-MPL-CGO-2026-11-15T01:00:00.000Z",
-      "home": "MPL",
-      "away": "CGO",
-      "dateTime": "2026-11-15T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Target Center",
-      "status": "scheduled"
-    },
     {
       "id": "g-PHD-IPS-2026-11-15T18:00:00.000Z",
       "home": "PHD",
