@@ -1,58 +1,8 @@
 {
-  "generatedAt": "2026-11-18T02:42:50.000Z",
+  "generatedAt": "2026-11-18T18:31:43.000Z",
   "windowStart": "2026-11-17T00:00:00.000Z",
   "windowEnd": "2026-11-25T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-TNT-NYC-2026-11-18T00:30:00.000Z",
-      "home": "TNT",
-      "away": "NYC",
-      "dateTime": "2026-11-18T00:30:00.000Z",
-      "arenaTimeZone": "America/Toronto",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Scotiabank Arena",
-      "status": "live"
-    },
-    {
-      "id": "g-MPL-PTL-2026-11-18T01:00:00.000Z",
-      "home": "MPL",
-      "away": "PTL",
-      "dateTime": "2026-11-18T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Target Center",
-      "status": "live"
-    },
-    {
-      "id": "g-SAT-DTR-2026-11-18T01:00:00.000Z",
-      "home": "SAT",
-      "away": "DTR",
-      "dateTime": "2026-11-18T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Frost Bank Center",
-      "status": "live"
-    },
-    {
-      "id": "g-LAX-SLC-2026-11-18T03:30:00.000Z",
-      "home": "LAX",
-      "away": "SLC",
-      "dateTime": "2026-11-18T03:30:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Intuit Dome",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-LAG-CHT-2026-11-18T04:00:00.000Z",
-      "home": "LAG",
-      "away": "CHT",
-      "dateTime": "2026-11-18T04:00:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "crypto.com Arena",
-      "status": "scheduled"
-    },
     {
       "id": "g-CLV-MPS-2026-11-19T00:00:00.000Z",
       "home": "CLV",
