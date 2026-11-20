@@ -1,48 +1,8 @@
 {
-  "generatedAt": "2026-11-20T01:59:39.000Z",
+  "generatedAt": "2026-11-20T18:11:53.000Z",
   "windowStart": "2026-11-19T00:00:00.000Z",
   "windowEnd": "2026-11-27T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-MPS-SFR-2026-11-20T01:00:00.000Z",
-      "home": "MPS",
-      "away": "SFR",
-      "dateTime": "2026-11-20T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "FedExForum",
-      "status": "live"
-    },
-    {
-      "id": "g-MLK-PTL-2026-11-20T01:00:00.000Z",
-      "home": "MLK",
-      "away": "PTL",
-      "dateTime": "2026-11-20T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Fiserv Forum",
-      "status": "live"
-    },
-    {
-      "id": "g-MPL-NYC-2026-11-20T01:00:00.000Z",
-      "home": "MPL",
-      "away": "NYC",
-      "dateTime": "2026-11-20T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Target Center",
-      "status": "live"
-    },
-    {
-      "id": "g-SAT-LAX-2026-11-20T01:00:00.000Z",
-      "home": "SAT",
-      "away": "LAX",
-      "dateTime": "2026-11-20T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Frost Bank Center",
-      "status": "live"
-    },
     {
       "id": "g-ATX-CHT-2026-11-21T00:00:00.000Z",
       "home": "ATX",
