@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-20T22:28:04.000Z",
-  "windowStart": "2026-11-19T00:00:00.000Z",
-  "windowEnd": "2026-11-27T00:00:00.000Z",
+  "generatedAt": "2026-11-21T01:57:11.000Z",
+  "windowStart": "2026-11-20T00:00:00.000Z",
+  "windowEnd": "2026-11-28T00:00:00.000Z",
   "games": [
     {
       "id": "g-ATX-CHT-2026-11-21T00:00:00.000Z",
@@ -11,7 +11,7 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "State Farm Arena",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-BKL-ORL-2026-11-21T00:30:00.000Z",
@@ -21,7 +21,7 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Barclays Center",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-CLV-IPS-2026-11-21T00:30:00.000Z",
@@ -31,7 +31,7 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Rocket Arena",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-DTR-TNT-2026-11-21T00:30:00.000Z",
@@ -41,7 +41,7 @@
       "arenaTimeZone": "America/Detroit",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Little Caesars Arena",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-CGO-WDC-2026-11-21T01:00:00.000Z",
@@ -51,7 +51,7 @@
       "arenaTimeZone": "America/Chicago",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "United Center",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-OKL-NOL-2026-11-21T01:00:00.000Z",
@@ -61,7 +61,7 @@
       "arenaTimeZone": "America/Chicago",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Paycom Center",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-SLC-PXN-2026-11-21T02:30:00.000Z",
