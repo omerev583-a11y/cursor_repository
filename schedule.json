@@ -1,58 +1,8 @@
 {
-  "generatedAt": "2026-11-22T00:55:01.000Z",
+  "generatedAt": "2026-11-22T17:31:21.000Z",
   "windowStart": "2026-11-21T00:00:00.000Z",
   "windowEnd": "2026-11-29T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-NYC-PTL-2026-11-22T00:30:00.000Z",
-      "home": "NYC",
-      "away": "PTL",
-      "dateTime": "2026-11-22T00:30:00.000Z",
-      "arenaTimeZone": "America/New_York",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Madison Square Garden",
-      "status": "live"
-    },
-    {
-      "id": "g-DLS-LAX-2026-11-22T01:00:00.000Z",
-      "home": "DLS",
-      "away": "LAX",
-      "dateTime": "2026-11-22T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "American Airlines Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-MPL-MPS-2026-11-22T01:00:00.000Z",
-      "home": "MPL",
-      "away": "MPS",
-      "dateTime": "2026-11-22T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Target Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-SAT-NOL-2026-11-22T01:00:00.000Z",
-      "home": "SAT",
-      "away": "NOL",
-      "dateTime": "2026-11-22T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Frost Bank Center",
-      "status": "scheduled"
-    },
-    {
-      "id": "g-SMT-BTN-2026-11-22T03:00:00.000Z",
-      "home": "SMT",
-      "away": "BTN",
-      "dateTime": "2026-11-22T03:00:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Golden 1 Center",
-      "status": "scheduled"
-    },
     {
       "id": "g-ATX-DTR-2026-11-22T20:30:00.000Z",
       "home": "ATX",
