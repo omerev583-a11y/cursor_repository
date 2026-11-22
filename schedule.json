@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T17:31:21.000Z",
+  "generatedAt": "2026-11-22T21:26:50.000Z",
   "windowStart": "2026-11-21T00:00:00.000Z",
   "windowEnd": "2026-11-29T00:00:00.000Z",
   "games": [
@@ -11,7 +11,7 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "State Farm Arena",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-MMI-OKL-2026-11-22T23:00:00.000Z",
