@@ -1,28 +1,8 @@
 {
-  "generatedAt": "2026-11-24T05:07:36.000Z",
+  "generatedAt": "2026-11-24T20:26:44.000Z",
   "windowStart": "2026-11-23T00:00:00.000Z",
   "windowEnd": "2026-12-01T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-LAG-SLC-2026-11-24T03:00:00.000Z",
-      "home": "LAG",
-      "away": "SLC",
-      "dateTime": "2026-11-24T03:00:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "crypto.com Arena",
-      "status": "live"
-    },
-    {
-      "id": "g-SMT-SAT-2026-11-24T03:00:00.000Z",
-      "home": "SMT",
-      "away": "SAT",
-      "dateTime": "2026-11-24T03:00:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Golden 1 Center",
-      "status": "live"
-    },
     {
       "id": "g-ORL-DTR-2026-11-25T00:00:00.000Z",
       "home": "ORL",
