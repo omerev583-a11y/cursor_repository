@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T19:41:20.000Z",
+  "generatedAt": "2026-11-25T23:56:40.000Z",
   "windowStart": "2026-11-24T00:00:00.000Z",
   "windowEnd": "2026-12-02T00:00:00.000Z",
   "games": [
@@ -11,7 +11,7 @@
       "arenaTimeZone": "America/New_York",
       "competition": "NBA REGULAR SEASON 2026-27",
       "venue": "Xfinity Mobile Arena",
-      "status": "scheduled"
+      "status": "live"
     },
     {
       "id": "g-CHT-CGO-2026-11-26T00:00:00.000Z",
