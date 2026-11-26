@@ -1,48 +1,8 @@
 {
-  "generatedAt": "2026-11-26T03:21:11.000Z",
+  "generatedAt": "2026-11-26T19:21:41.000Z",
   "windowStart": "2026-11-25T00:00:00.000Z",
   "windowEnd": "2026-12-03T00:00:00.000Z",
   "games": [
-    {
-      "id": "g-MLK-BKL-2026-11-26T01:00:00.000Z",
-      "home": "MLK",
-      "away": "BKL",
-      "dateTime": "2026-11-26T01:00:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Fiserv Forum",
-      "status": "live"
-    },
-    {
-      "id": "g-HST-PXN-2026-11-26T01:30:00.000Z",
-      "home": "HST",
-      "away": "PXN",
-      "dateTime": "2026-11-26T01:30:00.000Z",
-      "arenaTimeZone": "America/Chicago",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Toyota Center (Houston)",
-      "status": "live"
-    },
-    {
-      "id": "g-SFR-SMT-2026-11-26T03:00:00.000Z",
-      "home": "SFR",
-      "away": "SMT",
-      "dateTime": "2026-11-26T03:00:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Chase Center",
-      "status": "live"
-    },
-    {
-      "id": "g-PTL-SAT-2026-11-26T03:00:00.000Z",
-      "home": "PTL",
-      "away": "SAT",
-      "dateTime": "2026-11-26T03:00:00.000Z",
-      "arenaTimeZone": "America/Los_Angeles",
-      "competition": "NBA REGULAR SEASON 2026-27",
-      "venue": "Moda Center",
-      "status": "live"
-    },
     {
       "id": "g-NYC-MMI-2026-11-28T00:00:00.000Z",
       "home": "NYC",
